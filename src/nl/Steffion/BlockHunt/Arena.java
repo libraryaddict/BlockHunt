@@ -43,7 +43,6 @@ public class Arena implements ConfigurationSerializable {
 	public ArenaState gameState;
 	public int timer;
 	public List<Player> seekers;
-	public Scoreboard scoreboard;
 
 	public Arena (String arenaName, LocationSerializable pos1,
 			LocationSerializable pos2, int maxPlayers, int minPlayers,
@@ -83,7 +82,6 @@ public class Arena implements ConfigurationSerializable {
 		this.gameState = gameState;
 		this.timer = timer;
 		this.seekers = seekers;
-		this.scoreboard = scoreboard;
 	}
 
 	public enum ArenaType {

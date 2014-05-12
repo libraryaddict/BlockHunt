@@ -43,7 +43,6 @@ public class CMDcreate extends DefaultCMD {
 						W.signs.load();
 
 						W.arenaList.add(arena);
-						ScoreboardHandler.createScoreboard(arena);
 
 						MessageM.sendFMessage(player,
 								ConfigC.normal_createCreatedArena, "name-"

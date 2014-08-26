@@ -28,7 +28,7 @@ public class ScoreboardHandler {
                 }
             } else {
                 for (Player pl : arena.playersInArena) {
-                    pl.setScoreboard(Bukkit.getScoreboardManager().getNewScoreboard());
+                    ScoreboardManager.registerScoreboard(pl);
                 }
             }
         }

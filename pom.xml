@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
-		<defaultGoal>clean package</defaultGoal>
+		<defaultGoal>clean install</defaultGoal>
 		<directory>target</directory>
 		<finalName>BlockHunt</finalName>
 		<plugins>

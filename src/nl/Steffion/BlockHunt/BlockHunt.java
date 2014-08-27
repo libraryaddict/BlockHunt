@@ -416,7 +416,7 @@ public class BlockHunt extends JavaPlugin implements Listener {
 											W.choosenSeeker.remove(playerCheck);
 										} else {
 											if (seeker.equals(playerCheck)) {
-												i = i + 1;
+												i = 0;
 												loop = false;
 											}
 										}

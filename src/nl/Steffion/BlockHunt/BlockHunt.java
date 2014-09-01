@@ -414,16 +414,10 @@ public class BlockHunt extends JavaPlugin implements Listener {
 										if (W.choosenSeeker.get(playerCheck) == true) {
 											seeker = playerCheck;
 											W.choosenSeeker.remove(playerCheck);
-										} else {
-											if (seeker.equals(playerCheck)) {
-												i = 0;
-												loop = false;
-											}
 										}
 									}
 								}
 
-								if (loop) {
 									if (!arena.seekers.contains(seeker)) {
 										ArenaHandler
 												.sendFMessage(
@@ -440,7 +434,6 @@ public class BlockHunt extends JavaPlugin implements Listener {
 									} else {
 										i = i + 1;
 									}
-								}
 							}
 
 							for (Player arenaPlayer : arena.playersInArena) {
